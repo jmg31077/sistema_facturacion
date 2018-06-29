@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.weather-card {
+
+    background-color: #80eae8;
+    padding: .5em;
+}
+ .weather-card__header {
+     margin: 0;
+ }
+ .weather-card__list {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     flood-color: #d380ea;
+ }
+.weather-card__date {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: serif;
+    margin: 0 0 .5em 0;
+    border-bottom: 1px solid #d380ea;
+    display: block;
+}
+.weather-card__footer {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: serif;
+    font-size: 12px;
+}
+.weather-card__footer__item {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 18;
+    color: #d380ea;
+}
